@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "click-through-item-frames",
+	"version": "${version}",
+	"name": "Click Through Item Frames",
+	"description": "Use blocks behind item frames",
+	"authors": [
+		"caburum"
+	],
+	"contact": {
+		"sources": "https://github.com/caburum/click-through-item-frames"
+	},
+	"license": "MIT",
+	"icon": "assets/click-through-item-frames/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.caburum.clickthrough.ClickThroughMod"
+		]
+	},
+	"mixins": [
+		"click-through-item-frames.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ["~1.19.4", "~1.20.1"],
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
